@@ -1,0 +1,8 @@
+py-cpuinfo
+GPUtil
+influxdb_client
+psutil
+
+
+
+
