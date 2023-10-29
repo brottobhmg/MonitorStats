@@ -1,6 +1,7 @@
 # MonitorStats
 Collect data from PCs with Python, save into InfluxDB and visualize with Grafana using Raspberry Pi
 
+![dashboard example](oneGpu.png)
 
 ## Requirements
 - Raspberry Pi
