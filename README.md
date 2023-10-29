@@ -38,7 +38,7 @@ Tested with:
 - Install [Grafana](https://grafana.com/tutorials/install-grafana-on-raspberry-pi/) on Raspberry
 - Run 'pip install -r requirements.txt' on the PCs that run the Python script
 - You need to fill some data into Python file (row 18-21):
-  * 'pcName' : alias of the pc that are sending the information
+  * 'pcName' : alias of the pc that are sending the information. If you run this code on several pc, this should be unique to avoid overlapping
   * 'org' : name of your organization in InfluxDB
   * 'url' : the url of your Raspberry in the LAN
   * 'bucket' : name of the destination bucket in InfluxDB to save all information 
